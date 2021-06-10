@@ -26,6 +26,7 @@ jobs:
       matrix:
         package:
           - yay-bin # [!] You should not remove this. This workflow uses self-built yay to build other packages.
+          - gitkaren
           # Add packages you want HERE
           # - zoom
           # - google-chrome
