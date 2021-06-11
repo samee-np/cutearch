@@ -27,7 +27,9 @@ jobs:
         package:
           - yay-bin # [!] You should not remove this. This workflow uses self-built yay to build other packages.
           - gitkraken
+          - package-query
           - pamac-aur
+          - jp2a
           # Add packages you want HERE
           # - zoom
           # - google-chrome
