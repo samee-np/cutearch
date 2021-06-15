@@ -1,13 +1,13 @@
-# ArchLinux Repository Boilerplate
+# ArchLinux repository for personal use
 
-This is a boilerplate for creating your own **automated** ArchLinux package repository.
-You can easily add any AUR packages you want.
-GitHub Actions runs daily build on behalf of you.
+This is a ArchLinux package repository.
+You can easily add any AUR packages on repo.
+GitHub Actions runs daily and build from packagelist provided on comfiguration..
 
 ## Features
 
 - ⚙️ Works with GitHub Actions / GitHub Pages
-	- You don't need to setup any server machines. This is _serverless_. 😎
+	- don't need to setup any server machines. This is _serverless_. 😎
 - ⚡ Blazingly fast
 	- Build packages parallelly.
 	- Use ccache to reduce compilation time.
