@@ -21,7 +21,7 @@ GITHUB_REPO_NAME=${GITHUB_REPOSITORY#*/}
 # ref. https://github.com/actions/virtual-environments/issues/2658
 pacman() {
 	if ! md5sum -c <(echo e151f7aac8d3411e49e697b5461c34f9 /usr/lib/libc-2.33.so); then
-		curl -L https://repo.archlinux.org/x86_64/glibc-linux4-2.33-4-x86_64.pkg.tar.zst | tar x --zstd -C /
+		curl -L https://repo.archlinux.fr/x86_64/glibc-linux4-2.33-4-x86_64.pkg.tar.zst | tar x --zstd -C /
 	fi
 	command pacman "$@"
 }
